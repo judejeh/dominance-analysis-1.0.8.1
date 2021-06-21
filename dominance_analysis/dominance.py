@@ -299,12 +299,12 @@ class Dominance:
 
 	def plot_incremental_rsquare(self):
 		incremental_rsquare_df1=pd.DataFrame()
-		incremental_rsquare_df1['Features']=self.incrimental_r2.keys()
+		incremental_rsquare_df1['Features']= list(self.incrimental_r2.keys())
 		incremental_rsquare_df1['incremental_r2']=self.incrimental_r2.values()
 		incremental_rsquare_df1.sort_values('incremental_r2',ascending=False,inplace=True)
 
 		incremental_rsquare_df2=pd.DataFrame()
-		incremental_rsquare_df2['Features']=self.percentage_incremental_r2.keys()
+		incremental_rsquare_df2['Features']=list(self.percentage_incremental_r2.keys())
 		incremental_rsquare_df2['percentage_incremental_r2']=self.percentage_incremental_r2.values()
 		incremental_rsquare_df2.sort_values('percentage_incremental_r2',ascending=False,inplace=True)
 
