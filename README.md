@@ -1,5 +1,9 @@
-Dominance Analysis Package
+## Dominance Analysis Package
 
 This package can be used for dominance analysis on the given data-set.
 
-Please follow the github repository for detailed description [here](https://bhagatsajan0073.github.io/dominance-analysis).
+This version (1.0.8.1) contains bugfixes to version 1.0.8.
+
+Please follow the main github repository for detailed description and up-to-date versions [here](https://github.com/dominance-analysis/dominance-analysis).
+
+Alternate versions can be download [here on Pypi](https://pypi.org/project/dominance-analysis/#history)
