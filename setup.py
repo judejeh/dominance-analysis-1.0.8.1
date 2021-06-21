@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="dominance_analysis",
-    version="1.0.8",
+    version="1.0.8.1",
     author="Sajan Kumar Bhagat, Kunjithapatham Sivakumar, Shashank Shekhar,Bala Koteshwar Kolluri",
     author_email='bhagat.sajan0073@gmail.com, s.vibish@gmail.com, quintshekhar@gmail.com, balakoteshwar@gmail.com',
     maintainer="Sajan Kumar Bhagat, Kunjithapatham Sivakumar, Shashank Shekhar, Bala Koteshwar Kolluri",
@@ -13,7 +13,7 @@ setuptools.setup(
     description='Dominance Analysis',
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url='https://github.com/bhagatsajan0073/dominance_analysis',
+    url='https://github.com/judejeh/dominance-analysis-1.0.8.1',
     packages=setuptools.find_packages(),
     license='MIT',
     zip_safe=False,
@@ -23,6 +23,8 @@ setuptools.setup(
         "Programming Language :: Python :: 3.5",
         "Programming Language :: Python :: 3.6",
         "Programming Language :: Python :: 3.7",
+        "Programming Language :: Python :: 3.8",
+        "Programming Language :: Python :: 3.9",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
